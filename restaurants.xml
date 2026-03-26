@@ -1,0 +1,16 @@
+<restaurant>
+    <id>1</id>
+    <name>Italian restaurant</name>
+    <class>Italian</class>
+</restaurant>
+
+<restaurant>
+    <id>2</id>
+    <name>The Place</name>
+    <class>Nigerian</class>
+</restaurant>
+
+<restaurant>
+    <id>3</id>
+    <name>Snacks</name>
+</restaurant>
