@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shop>
+    <inventory>
+    <item id="001">
+        <name>Pepsi</name>
+        <category>Drinks</category>
+        <quantity>50</quantity>
+    </item>
+    <item id="002">
+        <name>Biscuit</name>
+        <category>Snacks</category>
+        <quantity>100</quantity>
+    </item>
+    <item id="003">
+        <name>Chocolate</name>
+        <category>snacks</category>
+        <quantity>75</quantity>
+    </item>
+    <item id="004">
+        <name>Water</name>
+        <category>Drinks</category>
+        <quantity>200</quantity>
+    </item>
+    <item id="005">
+        <name>Chips</name>
+        <category>Snacks</category>
+        <quantity>150</quantity>
+    </item>
+    <item id="006">
+        <name>Fanta</name>
+        <category>Drinks</category>
+        <quantity>80</quantity>"
+    </item>
+    <item id="007">
+        <name>Candy</name>
+        <category>Snacks</category>
+        <quantity>120</quantity>
+    </item>
+    <item id="008">
+        <name>Juice</name>
+        <category>Drinks</category>
+        <quantity>60</quantity>
+    </item>
+    <item id="009">
+        <name>Gum</name>
+        <category>Snacks</category>
+        <quantity>90</quantity>
+    </item>
+    <item id="010">
+        <name>Energy Drink</name>
+        <category>Drinks</category>
+        <quantity>40</quantity>
+    </item>    
+</inventory>
+</shop>
+
