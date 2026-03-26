@@ -1,0 +1,22 @@
+<header>
+    <text>TecTerminal</text>
+</header>
+<motto>
+    <text>Learn. Connect. Succed</text>
+</motto>
+ <maintext>
+    <message>
+        <info>Batches are Now Open</info>
+    </message>
+</maintext>
+<subtext>
+    <message>
+        <info>A fresh chance to begin your journey is here this month</info>
+    </message>
+</subtext>
+
+<calltoaction>
+    <message>
+        <info>Your seat is waiting </info>
+    </message>
+</calltoaction>
