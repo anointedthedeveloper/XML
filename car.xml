@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <carbrand="bmw" category="Luxury">
+        <model>320i</model>
+        <year>2020</year>
+        <color>black</color>
+        <price>30000</price>
+    </carbrand>
