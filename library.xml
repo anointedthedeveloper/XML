@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <librarycatalog>
+        <catalog>Science</catalog>
+        <books>100</books>
+        <librarian>John Doe</librarian>
+        <catalog>History</catalog>
+        <books>150</books>
+        <librarian>Jane Smith</librarian>
+    </librarycatalog>

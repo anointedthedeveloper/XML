@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <solve>
+        <operator>
+            <name>+</name>
+            <function>add</function>
+        </operator>
+        <operator>
+            <name>-</name>
+            <function>subtract</function>
+        </operator>
+        <operator>
+            <name>*</name>
+            <function>multiply</function>
+        </operator>
+        <operator>
+            <name>/</name>
+            <function>divide</function>
+        </operator>
+        

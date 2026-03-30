@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<course>
+    <title>Java</title>
+    <students>18</students>
+    <tutor>Anointed</tutor>
+    <center>Aptech</center>
+    <price>9000</price>
+</course>
