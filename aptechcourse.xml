@@ -1,0 +1,26 @@
+<?xml version="1.0" standalone="yes"?>
+<aptech>
+    <courses>
+        <course id="001">
+            <name>Responsive Web Development</name>
+        </course>
+        <course id="002">
+            <name>Data Science</name>
+        </course>
+        <course id="3">
+            <name>AI and ML</name>
+        </course>
+        <course id="004">
+            <name>ADSE</name>
+        </course>
+        <course id="5">
+            <name>UI/UX</name>
+        </course>
+        <course id="006">
+            <name>Cyber Security</name>
+        </course>
+        <course id="007">
+            <name>ACNS</name>
+        </course>
+    </courses>
+</aptech>
