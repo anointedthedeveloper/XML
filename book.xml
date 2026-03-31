@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE library [
+<!ELEMENT library (book+)>
+<!ELEMENT book (title, author, year)>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+]>
+<library>
+    <book>
+        <title>XML Fundamentals</title>
+        <author>James Obi</author>
+        <year>2021</year>
+    </book>
+    <book>
+        <title>Web Technologies</title>
+        <author>Ada Nwosu</author>
+        <year>2023</year>
+    </book>
+</library>

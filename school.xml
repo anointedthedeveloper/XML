@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE school [
+<!ELEMENT school (student)>
+<!ELEMENT student (name, grade, subject)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT grade (#PCDATA)>
+<!ELEMENT subject (#PCDATA)>
+]>
+<school>
+    <student>
+        <name>Tolu</name>
+        <grade>A</grade>
+        <subject>Mathematics</subject>
+    </student>
+</school>

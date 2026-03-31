@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE company [
+<!ELEMENT company (employee+)>
+<!ELEMENT employee (name, department, email?)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT department (#PCDATA)>
+<!ELEMENT email (#PCDATA)>
+]>
+<company>
+    <employee>
+        <name>Chidi Eze</name>
+        <department>Engineering</department>
+        <email>chidi@example.com</email>
+    </employee>
+    <employee>
+        <name>Ngozi Bello</name>
+        <department>Marketing</department>
+    </employee>
+</company>
