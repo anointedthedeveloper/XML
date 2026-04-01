@@ -10,10 +10,11 @@
     <employee>
         <name>Chidi Eze</name>
         <department>Engineering</department>
-        <email>chidi@example.com</email>
+        <email>chidi@gmail.com</email>
     </employee>
     <employee>
         <name>Ngozi Bello</name>
         <department>Marketing</department>
+        <email>ngozi@gmail.com</email>
     </employee>
 </company>
