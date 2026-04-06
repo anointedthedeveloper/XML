@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 2 - XPath on inventory.xml</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; background: #f4f4f4; }
+        h1 { color: #2c3e50; }
+        .task { background: #fff; border-left: 5px solid #e67e22; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .label { font-weight: bold; color: #555; }
+        .xpath { background: #fef5e7; padding: 6px 10px; font-family: monospace; border-radius: 3px; margin: 6px 0; }
+        .result { color: #e74c3c; font-weight: bold; }
+        ul { margin: 5px 0; padding-left: 20px; }
+        li { color: #27ae60; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Task 2: XPath Expressions with Operators &mdash; inventory.xml</h1>
+
+    <div class="task">
+        <p class="label">1. Select all products with a price less than 50</p>
+        <div class="xpath">XPath: /inventory/product[price &lt; 50]</div>
+        <p class="label">Result:</p>
+        <ul id="r1"></ul>
+    </div>
+
+    <div class="task">
+        <p class="label">2. Select the names of products with a quantity greater than 0</p>
+        <div class="xpath">XPath: /inventory/product[quantity &gt; 0]/name</div>
+        <p class="label">Result:</p>
+        <ul id="r2"></ul>
+    </div>
+
+    <script>
+        fetch('inventory.xml')
+            .then(r => r.text())
+            .then(xml => {
+                const doc = new DOMParser().parseFromString(xml, 'application/xml');
+
+                // Task 2.1 - products with price < 50
+                const r1 = doc.evaluate(
+                    '/inventory/product[price < 50]',
+                    doc, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null
+                );
+                const list1 = document.getElementById('r1');
+                let node;
+                while ((node = r1.iterateNext())) {
+                    const name = node.querySelector('name').textContent;
+                    const price = node.querySelector('price').textContent;
+                    const li = document.createElement('li');
+                    li.textContent = `${name} (Price: ${price})`;
+                    list1.appendChild(li);
+                }
+
+                // Task 2.2 - names of products with quantity > 0
+                const r2 = doc.evaluate(
+                    '/inventory/product[quantity > 0]/name',
+                    doc, null, XPathResult.ORDERED_NODE_ITERATOR_TYPE, null
+                );
+                const list2 = document.getElementById('r2');
+                let node2;
+                while ((node2 = r2.iterateNext())) {
+                    const li = document.createElement('li');
+                    li.textContent = node2.textContent;
+                    list2.appendChild(li);
+                }
+            });
+    </script>
+</body>
+</html>

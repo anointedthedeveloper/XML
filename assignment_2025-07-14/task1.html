@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1 - XPath on books.xml</title>
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; background: #f4f4f4; }
+        h1 { color: #2c3e50; }
+        .task { background: #fff; border-left: 5px solid #3498db; padding: 15px; margin: 20px 0; border-radius: 4px; }
+        .label { font-weight: bold; color: #555; }
+        .xpath { background: #eaf0fb; padding: 6px 10px; font-family: monospace; border-radius: 3px; margin: 6px 0; }
+        .result { color: #27ae60; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <h1>Task 1: XPath Expressions &mdash; books.xml</h1>
+
+    <div class="task">
+        <p class="label">1. Select the author of the book titled '1984'</p>
+        <div class="xpath">XPath: /library/book[title='1984']/author</div>
+        <p class="label">Result: <span class="result" id="r1"></span></p>
+    </div>
+
+    <div class="task">
+        <p class="label">2. Select the genre of the book with the author 'Lewis Carroll'</p>
+        <div class="xpath">XPath: /library/book[author='Lewis Carroll']/genre</div>
+        <p class="label">Result: <span class="result" id="r2"></span></p>
+    </div>
+
+    <script>
+        fetch('books.xml')
+            .then(r => r.text())
+            .then(xml => {
+                const doc = new DOMParser().parseFromString(xml, 'application/xml');
+
+                const r1 = doc.evaluate(
+                    "/library/book[title='1984']/author",
+                    doc, null, XPathResult.STRING_TYPE, null
+                );
+                document.getElementById('r1').textContent = r1.stringValue;
+
+                const r2 = doc.evaluate(
+                    "/library/book[author='Lewis Carroll']/genre",
+                    doc, null, XPathResult.STRING_TYPE, null
+                );
+                document.getElementById('r2').textContent = r2.stringValue;
+            });
+    </script>
+</body>
+</html>
