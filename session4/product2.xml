@@ -4,21 +4,26 @@
  <product>
  <name>Product 1</name>
  <price>178</price>
+ <description>Expensive Product 1</description>
  </product>
  <product>
  <name>Product 2</name>
  <price>109</price>
+ <description>Expensive Product 2</description>
  </product>
  <product>
  <name>Product 3</name>
  <price>10</price>
+ <description>Affordable Product 3</description>
  </product>
  <product>
  <name>Product 4</name>
  <price>199</price>
+ <description>Expensive Product 4</description>
  </product>
  <product>
  <name>Product 5</name>
  <price>40</price>
+ <description>Affordable Product 5</description>
  </product>
 </products> 
