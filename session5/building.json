@@ -3,6 +3,7 @@
     "Area": "2000 sq ft",
     "Location": "Kubwa",
     "Price": "500,000M",
+    "facilities": ["Swimming Pool", "Gym", "Spa", "Garden"],
     "address": { 
     "street": "123 Main St", 
     "city": "Anytown", 
