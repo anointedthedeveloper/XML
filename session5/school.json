@@ -1,0 +1,26 @@
+{
+    "School_name": "Dexter High School",
+    "Location": "Kubwa",
+    "Established": "1995",
+    "Principal": "Dexter Morgan",
+    "Students": [
+        {
+            "name": "Daniel Lee",
+            "age": 16,
+            "type": "Art",
+            "class": "SS1"
+        },
+        {
+            "name": "Masuka Lee",
+            "age": 17,
+            "type": "Science",
+            "class": "SS2"
+        },
+        {
+            "name": "Batista Lee",
+            "age": 16,
+            "type": "Commerce",
+            "class": "SS1"
+        }
+    ]
+}

@@ -1,0 +1,12 @@
+{
+    "Plot_no": "No.123",
+    "Area": "2000 sq ft",
+    "Location": "Kubwa",
+    "Price": "500,000M",
+    "address": { 
+    "street": "123 Main St", 
+    "city": "Anytown", 
+    "state": "CA", 
+    "zip": "12345" 
+    }
+}
