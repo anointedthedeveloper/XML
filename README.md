@@ -12,11 +12,10 @@ A collection of XML files for learning and practicing XML structure, syntax, XPa
 XML/
 ├── assignment/
 │   ├── 03-08-2026/         ← XSLT assignment (bookstore catalog)
-│   └── 2025-07-14/         ← XPath assignment (books & inventory)
+│   └── 04-05-2026/         ← XPath assignment (books & inventory)
+├── session1/               ← Root-level practice XML files & schemas
 ├── session4/               ← XSLT practice (product grouping)
 ├── session5/               ← (upcoming session)
-├── *.xml                   ← Root-level practice XML files
-├── *.dtd / *.xsd           ← Validation schemas
 └── README.md
 ```
 
@@ -63,7 +62,7 @@ After 1920:
 
 ---
 
-### `assignment/2025-07-14/` — XPath Expressions
+### `assignment/04-05-2026/` — XPath Expressions
 
 **Task 1** — XPath queries on `books.xml`
 
@@ -83,20 +82,7 @@ After 1920:
 
 ## Sessions
 
-### `session4/` — XSLT Product Grouping
-
-| File | Description |
-|------|-------------|
-| `product.xml` | Product list with name, price, description |
-| `product2.xml` | Alternate product dataset |
-| `product.xsl` | Basic XSLT transformation |
-| `groupingproducts.xsl` | Groups products into Expensive (>50) and Affordable (≤50) tables, plus a description table |
-
----
-
-## Root-Level Practice Files
-
-### XML Files
+### `session1/` — Practice XML Files & Schemas
 
 | File | Description | Key Tags |
 |------|-------------|----------|
@@ -127,13 +113,24 @@ After 1920:
 | `address.xml` | Address validated by DTD | `<address>` |
 | `internaldtd.xml` | XML with internal DTD | — |
 
-### Validation Schemas
+**Validation Schemas**
 
 | File | Type | Validates |
 |------|------|-----------|
 | `address.dtd` | DTD | `address.xml` |
 | `bookstore.dtd` | DTD | `bookstore.xml` |
 | `employees.xsd` | XSD | `employee.xml` |
+
+---
+
+### `session4/` — XSLT Product Grouping
+
+| File | Description |
+|------|-------------|
+| `product.xml` | Product list with name, price, description |
+| `product2.xml` | Alternate product dataset |
+| `product.xsl` | Basic XSLT transformation |
+| `groupingproducts.xsl` | Groups products into Expensive (>50) and Affordable (≤50) tables, plus a description table |
 
 ---
 
