@@ -1,0 +1,11 @@
+{
+    "name": "FreshMart Supermarket",
+    "location": "123 Market Street",
+    "year": 2026,
+    "metadata": {
+        "owner": "Chukwuemeka Obi",
+        "category": "Grocery & Retail",
+        "currency": "NGN",
+        "language": "English"
+    }
+}
