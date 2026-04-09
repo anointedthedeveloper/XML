@@ -1,0 +1,12 @@
+{
+  "name": "Anointed", 
+  "age": null, 
+  "email": "anointedthedevloper@gmail.com", 
+  "isStudent": true, 
+  "address": { 
+    "street": "123 anywhere St", 
+    "city": "any town", 
+    "country": "any country" 
+  }, 
+  "favoriteColors": ["null"] 
+} 
