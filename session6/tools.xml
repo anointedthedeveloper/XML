@@ -1,0 +1,12 @@
+{ 
+  "name": "John Doe", 
+  "age": 30, 
+  "city": "New York", 
+  /* This is a comment explaining the occupation */ 
+  "occupation": "Software Engineer", 
+// This is another comment about the hobbies 
+"hobbies": [ 
+    "Reading", 
+    "Traveling" 
+  ] 
+}
