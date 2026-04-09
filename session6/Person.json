@@ -11,5 +11,5 @@
       "minimum": 0
     }
   },
-  "required": ["name"]
+  "required": ["age"]
 }
