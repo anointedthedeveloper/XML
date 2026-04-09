@@ -1,0 +1,56 @@
+{
+    "library": {
+        "books": [
+            {
+                "title": "Harry Potter and the Sorcerer's Stone",
+                "author": "J.K. Rowling",
+                "year": 1997
+            },
+            {
+                "title": "The Great Gatsby",
+                "author": "F. Scott Fitzgerald",
+                "year": 1925
+            },
+            {
+                "title": "The Elements of Style",
+                "author": "William Strunk Jr.",
+                "year": 1918
+            },
+            {
+                "title": "1984",
+                "author": "George Orwell",
+                "year": 1949
+            },
+            {
+                "title": "Alice in Wonderland",
+                "author": "Lewis Carroll",
+                "year": 1865
+            },
+            {
+                "title": "To Kill a Mockingbird",
+                "author": "Harper Lee",
+                "year": 1960
+            },
+            {
+                "title": "The Hobbit",
+                "author": "J.R.R. Tolkien",
+                "year": 1937
+            },
+            {
+                "title": "Pride and Prejudice",
+                "author": "Jane Austen",
+                "year": 1813
+            },
+            {
+                "title": "The Alchemist",
+                "author": "Paulo Coelho",
+                "year": 1988
+            },
+            {
+                "title": "Brave New World",
+                "author": "Aldous Huxley",
+                "year": 1932
+            }
+        ]
+    }
+}
