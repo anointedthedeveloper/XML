@@ -1,0 +1,12 @@
+{
+  "name": "Alex Johnson",
+  "age": 28,
+  "hasPet": true,
+  "petName": "Buddy",
+  "email": "alex.johnson@email.com",
+  "height": 5.9,
+  "isEmployed": true,
+  "salary": 55000,
+  "nickname": null,
+  "hobbies": ["reading", "cycling", "gaming"]
+}

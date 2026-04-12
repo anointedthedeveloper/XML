@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Wireless Mouse",
+    "price": 29.99,
+    "quantity": 150
+  },
+  {
+    "name": "Mechanical Keyboard",
+    "price": 89.99,
+    "quantity": 75
+  },
+  {
+    "name": "USB-C Hub",
+    "price": 45.00,
+    "quantity": 200
+  },
+  {
+    "name": "Monitor Stand",
+    "price": 35.50,
+    "quantity": 60
+  },
+  {
+    "name": "Webcam HD",
+    "price": 120.00,
+    "quantity": 40
+  }
+]
