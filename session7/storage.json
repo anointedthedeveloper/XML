@@ -1,0 +1,70 @@
+{
+    "storage": {
+        "books": [
+            {
+                "title": "The Great Gatsby",
+                "author": "F. Scott Fitzgerald",
+                "price": 12.99
+            },
+            {
+                "title": "1984",
+                "author": "George Orwell",
+                "price": 9.99
+            },
+            {
+                "title": "The Alchemist",
+                "author": "Paulo Coelho",
+                "price": 11.50
+            },
+            {
+                "title": "Brave New World",
+                "author": "Aldous Huxley",
+                "price": 10.00
+            }
+        ],
+        "tables": [
+            {
+                "model": "Oakwood Dining Table",
+                "type": "vintage",
+                "price": 450.00
+            },
+            {
+                "model": "Marble Top Centre Table",
+                "type": "luxury",
+                "price": 1200.00
+            },
+            {
+                "model": "Rustic Farmhouse Table",
+                "type": "vintage",
+                "price": 380.00
+            },
+            {
+                "model": "Gold Leaf Console Table",
+                "type": "luxury",
+                "price": 2500.00
+            }
+        ],
+        "computers": [
+            {
+                "model": "MacBook Pro 16",
+                "year_of_manufacture": 2023,
+                "price": 2499.99
+            },
+            {
+                "model": "Dell XPS 15",
+                "year_of_manufacture": 2022,
+                "price": 1799.99
+            },
+            {
+                "model": "HP Spectre x360",
+                "year_of_manufacture": 2024,
+                "price": 1599.99
+            },
+            {
+                "model": "Lenovo ThinkPad X1 Carbon",
+                "year_of_manufacture": 2023,
+                "price": 1399.99
+            }
+        ]
+    }
+}
