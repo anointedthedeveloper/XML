@@ -4,22 +4,22 @@
             {
                 "title": "The Great Gatsby",
                 "author": "F. Scott Fitzgerald",
-                "price": 12.99
+                "price": 10000.00
             },
             {
                 "title": "1984",
                 "author": "George Orwell",
-                "price": 9.99
+                "price": 9000.99
             },
             {
                 "title": "The Alchemist",
                 "author": "Paulo Coelho",
-                "price": 11.50
+                "price": 110000.50
             },
             {
                 "title": "Brave New World",
                 "author": "Aldous Huxley",
-                "price": 10.00
+                "price": 10000.00
             }
         ],
         "tables": [
