@@ -21,7 +21,7 @@
         ],
         "computers": [
             {
-                "model": "MacBook Pro 16",
+                "model": "hp",
                 "year_of_manufacture": 2023,
                 "price": 2499.99
             },
