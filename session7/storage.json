@@ -29,16 +29,6 @@
                 "model": "Dell",
                 "year_of_manufacture": 2022,
                 "price": 1799.99
-            },
-            {
-                "model": "HP Spectre x360",
-                "year_of_manufacture": 2024,
-                "price": 1599.99
-            },
-            {
-                "model": "Lenovo ThinkPad X1 Carbon",
-                "year_of_manufacture": 2023,
-                "price": 1399.99
             }
         ]
     }
