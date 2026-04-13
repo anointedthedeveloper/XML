@@ -5,21 +5,6 @@
                 "title": "The Great Gatsby",
                 "author": "F. Scott Fitzgerald",
                 "price": 10000.00
-            },
-            {
-                "title": "1984",
-                "author": "George Orwell",
-                "price": 9000.99
-            },
-            {
-                "title": "The Alchemist",
-                "author": "Paulo Coelho",
-                "price": 110000.50
-            },
-            {
-                "title": "Brave New World",
-                "author": "Aldous Huxley",
-                "price": 10000.00
             }
         ],
         "tables": [
@@ -29,19 +14,9 @@
                 "price": 450.00
             },
             {
-                "model": "Marble Top Centre Table",
+                "model": "Centre Table",
                 "type": "luxury",
                 "price": 1200.00
-            },
-            {
-                "model": "Rustic Farmhouse Table",
-                "type": "vintage",
-                "price": 3800.00
-            },
-            {
-                "model": "Gold Leaf Console Table",
-                "type": "luxury",
-                "price": 2500.00
             }
         ],
         "computers": [
