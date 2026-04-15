@@ -28,18 +28,15 @@
     fetch("https://jsonplaceholder.typicode.com/users")
       .then(res => res.json())
       .then(users => {
-        document.getElementById("status").textContent =
-          `Loaded ${users.length} users from API.`;
-
+        document.getElementById("status").textContent = `Loaded ${users.length} users from API.`;
         const tbody = document.getElementById("tbody");
         users.forEach(u => {
-          const row = `<tr>
+          tbody.insertAdjacentHTML("beforeend", `<tr>
             <td>${u.id}</td>
             <td>${u.name}</td>
             <td>${u.email}</td>
             <td>${u.address.city}</td>
-          </tr>`;
-          tbody.insertAdjacentHTML("beforeend", row);
+          </tr>`);
         });
       })
       .catch(err => {

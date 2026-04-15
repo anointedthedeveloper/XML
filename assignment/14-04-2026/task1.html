@@ -30,18 +30,14 @@
   </div>
 
   <script>
-    // Step 1: Create a JSON object
     const person = { name: "Alice", age: 25, email: "alice@example.com" };
     document.getElementById("created").textContent = JSON.stringify(person, null, 2);
 
-    // Step 2: Add / manipulate data
     person.hobbies = ["reading", "coding"];
     person.address = { city: "New York", zip: "10001" };
     document.getElementById("manipulated").textContent = JSON.stringify(person, null, 2);
 
-    // Step 3: Parse a JSON string
-    const jsonString = JSON.stringify(person);
-    const parsed = JSON.parse(jsonString);
+    const parsed = JSON.parse(JSON.stringify(person));
     document.getElementById("parsed").textContent =
       `Name   : ${parsed.name}\n` +
       `Age    : ${parsed.age}\n` +
