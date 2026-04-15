@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Task 1: Demonstrating JSON concepts using XML
+  - Creating structured data (like a JSON object)
+  - Adding/nesting data (like adding keys to JSON)
+  - Parsing: elements and attributes represent parsed fields
+-->
+<person>
+  <!-- Basic fields — equivalent to JSON key-value pairs -->
+  <name>Alice</name>
+  <age>25</age>
+  <email>alice@example.com</email>
+
+  <!-- Array equivalent — repeated child elements -->
+  <hobbies>
+    <hobby>reading</hobby>
+    <hobby>coding</hobby>
+  </hobbies>
+
+  <!-- Nested object equivalent -->
+  <address>
+    <city>New York</city>
+    <zip>10001</zip>
+  </address>
+</person>

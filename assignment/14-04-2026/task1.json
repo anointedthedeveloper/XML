@@ -1,0 +1,28 @@
+{
+  "_comment_step1_create": "Initial JSON object with basic fields",
+  "created": {
+    "name": "Alice",
+    "age": 25,
+    "email": "alice@example.com"
+  },
+
+  "_comment_step2_manipulate": "After adding hobbies array and nested address object",
+  "manipulated": {
+    "name": "Alice",
+    "age": 25,
+    "email": "alice@example.com",
+    "hobbies": ["reading", "coding"],
+    "address": {
+      "city": "New York",
+      "zip": "10001"
+    }
+  },
+
+  "_comment_step3_parse": "Fields extracted after parsing the JSON string",
+  "parsed": {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York",
+    "hobbies": "reading, coding"
+  }
+}

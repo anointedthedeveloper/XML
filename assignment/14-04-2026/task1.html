@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task 1 – JSON Create, Manipulate & Parse</title>
+  <style>
+    body { font-family: monospace; padding: 20px; background: #f4f4f4; }
+    h2   { color: #333; }
+    pre  { background: #fff; border: 1px solid #ccc; padding: 15px; border-radius: 6px; }
+    .section { margin-bottom: 20px; }
+    label { font-weight: bold; display: block; margin-bottom: 6px; }
+  </style>
+</head>
+<body>
+  <h2>Task 1 – JSON: Create, Manipulate &amp; Parse</h2>
+
+  <div class="section">
+    <label>1. Created JSON Object:</label>
+    <pre id="created"></pre>
+  </div>
+
+  <div class="section">
+    <label>2. After Adding Data (hobbies &amp; address):</label>
+    <pre id="manipulated"></pre>
+  </div>
+
+  <div class="section">
+    <label>3. Parsed Fields:</label>
+    <pre id="parsed"></pre>
+  </div>
+
+  <script>
+    // Step 1: Create a JSON object
+    const person = { name: "Alice", age: 25, email: "alice@example.com" };
+    document.getElementById("created").textContent = JSON.stringify(person, null, 2);
+
+    // Step 2: Add / manipulate data
+    person.hobbies = ["reading", "coding"];
+    person.address = { city: "New York", zip: "10001" };
+    document.getElementById("manipulated").textContent = JSON.stringify(person, null, 2);
+
+    // Step 3: Parse a JSON string
+    const jsonString = JSON.stringify(person);
+    const parsed = JSON.parse(jsonString);
+    document.getElementById("parsed").textContent =
+      `Name   : ${parsed.name}\n` +
+      `Age    : ${parsed.age}\n` +
+      `City   : ${parsed.address.city}\n` +
+      `Hobbies: ${parsed.hobbies.join(", ")}`;
+  </script>
+</body>
+</html>

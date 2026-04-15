@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Task 2: GET https://jsonplaceholder.typicode.com/users
+  JSON API response represented as XML
+-->
+<users>
+  <user id="1">
+    <name>Leanne Graham</name>
+    <email>Sincere@april.biz</email>
+    <address>
+      <city>Gwenborough</city>
+    </address>
+  </user>
+  <user id="2">
+    <name>Ervin Howell</name>
+    <email>Shanna@melissa.tv</email>
+    <address>
+      <city>Wisokyburgh</city>
+    </address>
+  </user>
+  <user id="3">
+    <name>Clementine Bauch</name>
+    <email>Nathan@yesenia.net</email>
+    <address>
+      <city>McKenziehaven</city>
+    </address>
+  </user>
+  <user id="4">
+    <name>Patricia Lebsack</name>
+    <email>Julianne.OConner@kory.org</email>
+    <address>
+      <city>South Elvis</city>
+    </address>
+  </user>
+  <user id="5">
+    <name>Chelsey Dietrich</name>
+    <email>Lucio_Hettinger@annie.ca</email>
+    <address>
+      <city>Roscoeview</city>
+    </address>
+  </user>
+  <user id="6">
+    <name>Mrs. Dennis Schulist</name>
+    <email>Karley_Dach@jasper.info</email>
+    <address>
+      <city>South Christy</city>
+    </address>
+  </user>
+  <user id="7">
+    <name>Kurtis Weissnat</name>
+    <email>Telly.Hoeger@billy.biz</email>
+    <address>
+      <city>Howemouth</city>
+    </address>
+  </user>
+  <user id="8">
+    <name>Nicholas Runolfsdottir V</name>
+    <email>Sherwood@rosamond.me</email>
+    <address>
+      <city>Aliyaview</city>
+    </address>
+  </user>
+  <user id="9">
+    <name>Glenna Reichert</name>
+    <email>Chaim_McDermott@dana.io</email>
+    <address>
+      <city>Bartholomebury</city>
+    </address>
+  </user>
+  <user id="10">
+    <name>Clementina DuBuque</name>
+    <email>Rey.Padberg@karina.biz</email>
+    <address>
+      <city>Lebsackbury</city>
+    </address>
+  </user>
+</users>
