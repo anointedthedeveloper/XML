@@ -15,4 +15,8 @@
         <author>Harper Lee</author>
         <genre>Fiction</genre>
     </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Fiction</genre>
 </BookStore>
