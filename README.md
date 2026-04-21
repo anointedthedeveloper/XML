@@ -144,3 +144,4 @@ After 1920:
 
 - Opening and closing tags **must match exactly**: `<name>Rajesh</name>` ✅
 - Mismatched cases cause **parsing errors**: `<name>Rajesh</Name>` ❌
+|DONE|
