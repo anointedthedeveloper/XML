@@ -25,4 +25,9 @@
         <author>F. Scott Fitzgerald</author>
         <genre>Fiction</genre>
     </book>
+    <book>
+        <title>Brave New World</title>
+        <author>Aldous Huxley</author>
+        <genre>Dystopian</genre>
+    </book>
 </BookStore>
