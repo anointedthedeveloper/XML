@@ -1,0 +1,8 @@
+<!DOCTYPE aptechcourses [ 
+ <!ELEMENT aptechcourses (courses+)> 
+ <!ELEMENT course (title, instructor, duration)> 
+ <!ELEMENT title (#PCDATA)> 
+ <!ELEMENT instructor (#PCDATA)> 
+ <!ELEMENT duration (#PCDATA)> 
+ <!ATTLIST course id ID #REQUIRED> 
+]> 
