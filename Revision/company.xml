@@ -1,0 +1,18 @@
+<company>
+    <department name="Sales">
+        <employeename>Doe John</employeename>
+        <employeename>Smith Jane</employeename>
+    </department>
+    <department name="Engineering">
+        <employeename>John Doe</employeename>
+        <employeename>Jane Smith</employeename>
+    </department>
+    <department name="Finance">
+        <employeename>Jack John</employeename>
+        <employeename>Jake Mathew</employeename>
+    </department>
+    <department name="Education">
+        <employeename>John Jack</employeename>
+        <employeename>Mathew Jake</employeename>
+    </department>
+</company>
