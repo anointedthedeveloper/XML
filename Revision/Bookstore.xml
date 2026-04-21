@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BookStore>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian</genre>
+    </book>
+    <book>
+        <title>Alice in Wonderland</title>
+        <author>Lewis Carroll</author>
+        <genre>Fantasy</genre>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Fiction</genre>
+    </book>
+</BookStore>
